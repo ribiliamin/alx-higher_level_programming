@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# Write a program that prints the ASCII alphabet, in lowercase, not followed by a new line.
+# Written by Bayo Biliamin
 for letter in range(97, 123):
     if chr(letter) != 'q' and chr(letter) != 'e':
         print("{}".format(chr(letter)), end="")
